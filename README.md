@@ -13,7 +13,7 @@ The register is a 12-bits synchronous register set when nload ias at low state.
 
 The command sequencer has as input two buttons (a and b) and will output three signals: EN, nclear and nload. Signals are generated as following:
 
-![Command sequencer](com_seq.png)
+![Command sequencer](com_seq.jpg)
 
 A unique impulse generator is a module used to be sure a pressed (and unreleased) button will "count" as only one click. For doing this, the following state machine is used:
 
